@@ -1,0 +1,32 @@
+{
+  "name": "stock-report-tool",
+  "version": "1.0.0",
+  "description": "Automated equity research report generator",
+  "dependencies": {
+    "docx": "^9.5.3"
+  }
+}
+```
+
+---
+
+**File 3 — `.gitignore`**
+
+Filename: `.gitignore`
+```
+node_modules/
+__pycache__/
+*.pyc
+*.docx
+*.json
+!package.json
+.env
+```
+
+---
+
+**File 4 — `.env.example`**
+
+Filename: `.env.example`
+```
+ANTHROPIC_API_KEY=sk-ant-your-key-here
